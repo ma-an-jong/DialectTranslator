@@ -34,9 +34,8 @@ public class TranslateController
     @PostMapping(value = "/api/translate")
     public ResponseEntity<TranslateResponseDTO> translate(@ApiParam(value="dialect, label로 구성됨") @RequestBody TranslateRequestDTO requestDTO) throws NoSuchFieldException
     {
-        System.out.println(requestDTO.toString());
         Log log = new Log(requestDTO);
-
+        requestDTO.setDialect(requestDTO.getDialect().trim())
         Mono<TranslateResponseDTO> returnMono =  webClient.post()
                 .uri("/translate")
                 .body(Mono.just(requestDTO), TranslateRequestDTO.class)
