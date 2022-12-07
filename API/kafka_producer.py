@@ -1,12 +1,12 @@
 from kafka import KafkaProducer
 from json import dumps
-
+from kafka_info import get_bootstrap_server
 class MyKafkaProducer():
     def __init__(self):
         self.topic_name = 'java-topic'
         self.__producer = KafkaProducer(acks=0,
                                         compression_type='gzip',
-                                        bootstrap_servers=['202.31.202.34:80'])
+                                        bootstrap_servers=[get_bootstrap_server()])
 #                                        key_serializer=str.encode,
 #                                        value_serializer=str.encode)
         print(self.__producer)

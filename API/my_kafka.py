@@ -25,10 +25,11 @@ def translate_response(key,value):
     except IndexError:
         return {"except" : "unvalid labeling"}
 
+bootstrap_server = get_bootstrap_server()
 producer = MyKafkaProducer()
 
 consumer = KafkaConsumer(
-        bootstrap_servers=['202.31.202.34:80'],
+        bootstrap_servers=[bootstrap_server],
                   auto_offset_reset='earliest',
                        group_id='my-consumer-1',
                        )
