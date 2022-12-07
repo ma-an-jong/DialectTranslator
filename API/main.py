@@ -19,7 +19,6 @@ models = Translators()
 
 app = FastAPI()
 
-
 @app.get("/")
 async def root():
     return {"message": "동네사람들 API"}
@@ -27,7 +26,7 @@ async def root():
 @app.post("/translate")
 async def translate_response(item:Item):
     key = item.dialect
-    print(item.dialect,item.label) 
+
     try:
         if item.label == None:
             label = classifier.classification(item.dialect)
