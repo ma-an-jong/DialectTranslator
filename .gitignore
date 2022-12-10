@@ -4,6 +4,7 @@
 __pycache__
 *.zip
 kafka_info.py
+application.properties
 # Created by https://www.toptal.com/developers/gitignore/api/react,java,intellij,jupyternotebooks,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,java,intellij,jupyternotebooks,python
 
