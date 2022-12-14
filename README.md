@@ -25,6 +25,39 @@
 
 ---
 
+## 기능 소개
+
+### 사투리 번역 기능
+
+- 기능 구조도
+    
+![image](https://user-images.githubusercontent.com/84767373/207541144-6f04cfa6-31cf-41a2-81d5-0e1b220133d3.png)
+
+- [ ]  기능 설명
+
+- 번역 결과
+    
+![image](https://user-images.githubusercontent.com/84767373/207541154-a6ab0292-fcff-4780-9b35-1b77f55e4485.png)
+
+    
+
+### 지역 분류 기능
+
+- 기능 구조도
+    
+![image](https://user-images.githubusercontent.com/84767373/207541182-682a49b5-a31c-4cd9-8165-f5a4c9eb09ba.png)
+    
+
+- [ ]  기능 설명
+
+- 분류 결과
+
+![image](https://user-images.githubusercontent.com/84767373/207541222-a58a06fb-404f-4cab-a8fe-2e32088397eb.png)
+
+## 시스템 구조도
+
+![image](https://user-images.githubusercontent.com/84767373/207541257-c12b4a78-f950-4668-af5e-e80c692c7c80.png)
+
 ## **프로젝트를 하면서 어려웠던 점**
 
 - 성능 개선에 대한 어려움
