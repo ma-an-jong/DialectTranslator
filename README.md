@@ -39,7 +39,7 @@
     
 ![image](https://user-images.githubusercontent.com/84767373/207541154-a6ab0292-fcff-4780-9b35-1b77f55e4485.png)
 
-    
+'무싱 거옌 고릅 디까'라는 제주어를 '뭐라고 말했어요'라는 표준어로 번역한 모습
 
 ### 지역 분류 기능
 
